@@ -28,8 +28,8 @@
     </developers>
 
     <scm>
-        <connection>scm:git:https://github.com/andreacomo/tomcat-bcrypt.git</connection>
-        <developerConnection>scm:git:https://github.com/andreacomo/tomcat-bcrypt.git</developerConnection>
+        <connection>scm:git:https://andreacomo@github.com/andreacomo/tomcat-bcrypt.git</connection>
+        <developerConnection>scm:git:https://andreacomo@github.com/andreacomo/tomcat-bcrypt.git</developerConnection>
         <url>https://github.com/andreacomo/tomcat-bcrypt.git</url>
         <tag>HEAD</tag>
     </scm>
@@ -108,6 +108,12 @@
     <profiles>
         <profile>
             <id>release-profile</id>
+            <activation>
+                <property>
+                    <name>performRelease</name>
+                    <value>true</value>
+                </property>
+            </activation>
             <build>
                 <plugins>
                     <plugin>
