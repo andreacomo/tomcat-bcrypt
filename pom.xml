@@ -107,13 +107,7 @@
 
     <profiles>
         <profile>
-            <id>release-profile</id>
-            <activation>
-                <property>
-                    <name>performRelease</name>
-                    <value>true</value>
-                </property>
-            </activation>
+            <id>release</id>
             <build>
                 <plugins>
                     <plugin>
