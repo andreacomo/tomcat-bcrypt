@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/andreacomo/tomcat-bcrypt.svg?branch=master)](https://travis-ci.org/andreacomo/tomcat-bcrypt)
+
+
 # Tomcat BCrypt
 
 Want to use *[BCrypt](https://it.wikipedia.org/wiki/Bcrypt) hashed password* with your preferred Tomcat (**8 or above**) Realm?
