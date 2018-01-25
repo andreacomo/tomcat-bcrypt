@@ -9,7 +9,7 @@ This is an implementation of Tomcat `CredentialHandler` wrapping [jBCrypt](https
 
 ## How to use
 
-* Download latest jar
+* Download [latest jar](https://search.maven.org/remotecontent?filepath=it/cosenonjaviste/tomcat-bcrypt/1.0.0/tomcat-bcrypt-1.0.0.jar)
 * Copy to `TOMCAT_HOME/lib` folder
 * Nest `BCryptoCredentialHandler` in your preferred Realm, for example:
 
