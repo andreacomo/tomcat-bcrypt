@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/andreacomo/tomcat-bcrypt.svg?branch=master)](https://travis-ci.org/andreacomo/tomcat-bcrypt)
-
+[![Released Version](https://img.shields.io/maven-central/v/it.cosenonjaviste/tomcat-bcrypt.svg)](https://search.maven.org/#search%7Cga%7C1%7Cg%3A%22it.cosenonjaviste%22%20a%3A%22tomcat-bcrypt%22)
 
 # Tomcat BCrypt
 
